@@ -13,17 +13,15 @@ class RutaArribaScreen extends StatelessWidget {
           centerTitle: true,
           bottom: TabBar(
             tabs: [
-              Tab(text: "tab1",),
-              Tab(text: "tab2",),
-
+              Tab(text: "tab1"),
+              Tab(text: "tab2"),
             ],
           ),
-          ),
+        ),
         body: TabBarView(
           children: [
-            Center(child: Text("tab numero 1"),),
-            Center(child: Text("tab numero 2"),)
-
+            Center(child: Text("tab numero 1")),
+            Center(child: Text("tab numero 2")),
           ],
         ),
       ),

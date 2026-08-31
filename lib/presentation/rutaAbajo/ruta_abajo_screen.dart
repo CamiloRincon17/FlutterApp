@@ -22,7 +22,7 @@ class _RutaAbajoScreenState extends State<RutaAbajoScreen> {
       body: _screen[_indicador],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _indicador,
-        onTap: (index){
+        onTap: (index) {
           setState(() {
             _indicador = index;
           });
